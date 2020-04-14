@@ -1,0 +1,84 @@
+.borderr{
+    border: solid 1px black;
+}
+
+.welcome{
+    font-size: 100px;
+}
+
+.bg-img{
+    display: flex;
+    background: url(/assets/img/space.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+.navh{
+    border-radius: 5px 5px;
+    color: white !important; 
+}
+
+.navh:hover{
+    background-color: white;
+    transition-duration: 0.5s;
+    color: black !important;
+
+}
+
+.borderw{
+    border: solid 1px white;
+}
+
+.h7{
+    font-size: 100px;
+    animation: float 6s ease-in-out infinite;
+    overflow: hidden;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.text3d {
+    position: absolute;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 100px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
